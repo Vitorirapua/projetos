@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.jfif">
+    <link rel="stylesheet" href="contato.css">
+    <title>VeteBank</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div>
+                <img class="logos" src="img/logo.jfif" alt="Logo do VeteBank">
+                <h1><a href="contato.html">VeteBank</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Página inicial</a></li>
+                    <li><a href="#">Seu negócio</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Contato </h1>
+
+            <p>Preencha todos os campos abaixo para entrar em contato com a equipe do VeteBank.</p>
+
+
+
+            <section>
+                <p>
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" placeholder="Seu nome completo" required minlength="3">
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail" required>
+                </p>
+
+                <p>
+                    <label for="subject">Assunto:</label>
+                    <input type="text" name="subject" id="subject" placeholder="Assunto do contato" required
+                        minlength="4">
+                </p>
+
+                <p>
+                    <label for="message">Mensagem:</label>
+                    <textarea name="message" id="message" placeholder="Sua mensagem" required minlength="5"></textarea>
+                </p>
+                <div class="center">
+                    <button type="submit" class="btsubmit" onclick="enviar()">Enviar</button>
+                 </div>
+
+            </section>
+
+        </main>
+        <footer>
+            <div>
+                <img class="logos" src="img/logo.jfif" alt="Logo do site">
+            </div>
+            <div>
+                <p>© 2024 VeteBank - instituição de pagamento. 23085.630. Rua Artemis 24</p>
+                <div>
+                    <a href="https://github.com/Vitorirapua" target="_blank">Github</a>
+                    <a href="https://www.instagram.com/mlk__vt_/" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="contato.js"></script>
+</body>
+
+</html>
